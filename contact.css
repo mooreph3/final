@@ -1,0 +1,82 @@
+html {
+	background: url('background.jpg') no-repeat center center fixed;
+}
+.header{
+	clear: both;
+	border-top: 1px solid #e3e3e3;
+}
+header ul {
+	text-align: left;
+}
+header li{
+	text-align: left;
+	display: inline;
+	margin-bottom: 5px;
+	list-style-type: none;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	
+}
+header a {
+	text-decoration: none;
+	color: #000080;
+	font-size: 18px;
+}
+	body {
+	border: 10px solid ##225533;
+	padding-left: 400px;
+	padding-right:400px;
+	text align: center;
+}
+.follow ul {
+	text-align: center;
+	display: inline;
+	list-style: none;
+}
+.follow li {
+	text-align: center;
+}
+h1 {
+	padding-top: 30px;
+	color: #000;
+	text-align: center;
+}
+
+h2 {
+	color: #000;
+	text-align: center;
+}
+
+h3 {
+	color: #000;
+	text-align: center;
+	border-top: 1 px solid #000;
+}
+
+footer{
+	clear: both;
+	border-top: 1px solid #e3e3e3;
+}
+ul{
+	text-align: left;
+	padding: 10px;
+	}
+li{
+	text-align: left;
+	display: inline;
+	margin-right: 5px;
+	list-style-type: none;
+	padding-right: 5px;
+	border-right: 1px solid #FFF ;
+}
+a {
+	text-decoration: none;
+	color: #000080;
+	font-size: 18px;
+}
+@media (min-width: 600px) {
+	nav {
+		float: none;
+		width: auto;
+	}
+}
